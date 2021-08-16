@@ -500,3 +500,5 @@ PRODUCT_BOOT_JARS += \
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
+PRODUCT_VENDOR_KERNEL_HEADERS := device/oneplus/msm8998-common/msm8998/kernel-headers
